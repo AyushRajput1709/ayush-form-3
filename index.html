@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet"
+    href="style.css" type="text/css">
+</head>
+<body>
+    <div class="main">
+    <div class="register">
+        <h2>Survey Form</h2>
+        <form action="https://enw7u145b8im9.x.pipedream.net/" method="post" >
+            <h2>Name:</h2>
+            <div class="control">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="first_name" required>
+            </div><br>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="last_name" required>
+            </div><br>
+            <h2>Address:</h2>
+            <div>
+                <label for="street">Street:</label>
+                <input type="text" id="street" name="street_address" required>
+            </div><br>
+            <div>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+            </div><br>
+            <div>
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" required>
+            </div><br>
+            <div>
+                <label for="pincode">Pin Code:</label>
+                <input type="number" id="pincode" name="pincode" required>
+            </div><br>
+            <h2>Contact:</h2>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="contact_number" required>
+            </div><br>
+            <h2>Rating</h2>
+            <div>
+                <label>Quality of products received:</label><br><br>
+                <input type="radio" id="quality-excellent" name="quality_of_product_received" value="Excellent" required>
+                <label for="quality-excellent">Excellent</label>
+                <input type="radio" id="quality-good" name="quality_of_product_received" value="Good" required>
+                <label for="quality-good">Good</label>
+                <input type="radio" id="quality-bad" name="quality_of_product_received" value="Bad" required>
+                <label for="quality-bad">Bad</label>
+            </div><br>
+            <div>
+                <label>
+                    <h2>Value for money:</h2>
+                </label>
+                <input type="radio" id="value-excellent" name="value_for_money_rating" value="Excellent" required>
+                <label for="value-excellent">Excellent</label>
+                <input type="radio" id="value-good" name="value_for_money_rating" value="Good" required>
+                <label for="value-good">Good</label>
+                <input type="radio" id="value-bad" name="value_for_money_rating" value="Bad" required>
+                <label for="value-bad">Bad</label>
+            </div><br>
+            <div>
+                <label>
+                    <h2>Delivery:</h2>
+                </label>
+                <input type="radio" id="delivery-excellent" name="delivery_rating" value="Excellent" required>
+                <label for="delivery-excellent">Excellent</label>
+                <input type="radio" id="delivery-good" name="delivery_rating" value="Good" required>
+                <label for="delivery-good">Good
+                </label>
+                <input type="radio" id="delivery-bad" name="delivery_rating" value="Bad" required>
+                <label for="delivery-bad">Bad</label>
+            </div><br>
+            <input type="submit"value="Submit"name="submit"id="submit">
+        </form>
+        </div>
+        </div>
+</body>
+
+</html>
